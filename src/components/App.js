@@ -4,7 +4,7 @@ import ChildComponent from './ChildComponent';
 const App = () => {
  //code here
   const [input, setInput] = useState("");
-  const onInputChange = (e) => {
+  const handleInputChange= (e) => {
     setInput(e.target.value);
   }
   return (
