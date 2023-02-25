@@ -12,7 +12,7 @@ const App = () => {
       <ChildComponent> 
        <input id='input' onChange={onInputChange} />
      </ ChildComponent>
-      <p id='output'>{Number{input}*{Number{input}}</p>
+      <p id='output'>{Number(input)*{Number(input)}</p>
     </div>
   )
 }
