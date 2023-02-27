@@ -9,11 +9,11 @@ const App = () => {
     setInput(e.target.value);
   }
   return (
-    <div id="main">
-      <ChildComponent>
-        <input id="input" onChange={onInputChange} />
+   <div id="main">
+      <ChildComponent> 
+       <input id='input' onChange={handleInputChange} />
       </ChildComponent>
-      <p id="output">{Number(input) * Number(input)}</p>
+      <p id='output'>{Number(input) * Number(input)}</p>
     </div>
   );
 };
