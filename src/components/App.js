@@ -3,7 +3,8 @@ import '../styles/App.css';
 import ChildComponent from './ChildComponent';
 const App = () => {
  //code here
-  const [input, setInput] = useState("");
+  const [input, setInput] = useState('');
+ 
   const handleInputChange= (e) => {
     setInput(e.target.value);
   }
